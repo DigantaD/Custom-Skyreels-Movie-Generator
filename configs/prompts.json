@@ -1,0 +1,71 @@
+{
+  "sample_script": {
+    "segments": [
+      {
+        "segment_id": 1,
+        "text": "Hey everyone! I'm here at P-TAL's brand new store in Vasant Kunj, and trust me- this place is absolutely stunning!",
+        "prompt": "Hey everyone! I'm here at P-TAL's brand new store in Vasant Kunj, and trust me- this place is absolutely stunning!, Professional influencer standing at store entrance, warm welcoming atmosphere, cinematic, high quality, professional, 4K",
+        "duration": 4.0,
+        "camera_movement": null,
+        "scene_type": "opening"
+      },
+      {
+        "segment_id": 2,
+        "text": "P-TAL is all about reviving India's rich heritage of brass, copper, and kansa. Every piece you see here is handcrafted by artisans, making it not just a cookware or serveware- but a piece of tradition you can bring into your home.",
+        "prompt": "P-TAL is all about reviving India's rich heritage of brass, copper, and kansa. Every piece you see here is handcrafted by artisans, making it not just a cookware or serveware- but a piece of tradition you can bring into your home., Beautiful display of traditional Indian brass and copper cookware on shelves, well-lit store interior, cinematic, high quality, professional, 4K",
+        "duration": 6.0,
+        "camera_movement": null,
+        "scene_type": "product_showcase"
+      },
+      {
+        "segment_id": 3,
+        "text": "(Camera pans to shelves of diyas, cookware, serveware)",
+        "prompt": "Camera pans to shelves of diyas, cookware, serveware, Beautiful display of traditional Indian brass and copper cookware on shelves, well-lit store interior, camera panning smoothly, cinematic, high quality, professional, 4K",
+        "duration": 3.0,
+        "camera_movement": "pan",
+        "scene_type": "product_showcase"
+      },
+      {
+        "segment_id": 4,
+        "text": "And with the festive season around the corner, this store is literally a gifting paradise. From timeless cookware to beautiful dinner sets and serveware- everything here makes for gifts that last a lifetime.",
+        "prompt": "And with the festive season around the corner, this store is literally a gifting paradise. From timeless cookware to beautiful dinner sets and serveware- everything here makes for gifts that last a lifetime., Beautiful display of traditional Indian brass and copper cookware on shelves, well-lit store interior, cinematic, high quality, professional, 4K",
+        "duration": 6.0,
+        "camera_movement": null,
+        "scene_type": "product_showcase"
+      },
+      {
+        "segment_id": 5,
+        "text": "(Influencer picks up a patili or thali)",
+        "prompt": "Influencer picks up a patili or thali, Close-up of hands holding traditional Indian brass cookware, showcasing craftsmanship, close-up shot, cinematic, high quality, professional, 4K",
+        "duration": 3.0,
+        "camera_movement": "close",
+        "scene_type": "interaction"
+      },
+      {
+        "segment_id": 6,
+        "text": "What I love is how P-TAL combines sustainability with culture. So when you shop here, you're not just buying something beautiful, you're also supporting Indian artisans and their craft.",
+        "prompt": "What I love is how P-TAL combines sustainability with culture. So when you shop here, you're not just buying something beautiful, you're also supporting Indian artisans and their craft., Professional influencer in store, warm welcoming atmosphere, cinematic, high quality, professional, 4K",
+        "duration": 5.0,
+        "camera_movement": null,
+        "scene_type": null
+      },
+      {
+        "segment_id": 7,
+        "text": "So if you're in Delhi, you HAVE to come visit the new P-TAL store at Vasant Kunj. Trust me, you'll walk out with something special for yourself and your loved ones.",
+        "prompt": "So if you're in Delhi, you HAVE to come visit the new P-TAL store at Vasant Kunj. Trust me, you'll walk out with something special for yourself and your loved ones., Professional influencer in store, warm welcoming atmosphere, cinematic, high quality, professional, 4K",
+        "duration": 5.0,
+        "camera_movement": null,
+        "scene_type": null
+      },
+      {
+        "segment_id": 8,
+        "text": "(Closes with wide shot of store + influencer smiling) See you here!",
+        "prompt": "Closes with wide shot of store + influencer smiling, Wide shot of store interior with influencer, professional retail environment, wide angle shot, cinematic, high quality, professional, 4K",
+        "duration": 3.0,
+        "camera_movement": "wide",
+        "scene_type": "closing"
+      }
+    ]
+  }
+}
+

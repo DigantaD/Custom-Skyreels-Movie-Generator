@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  skyreels-generator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: skyreels-generator:latest
+    container_name: skyreels-generator
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - CUDA_VISIBLE_DEVICES=0
+    volumes:
+      - ./outputs:/app/outputs
+      - ./models:/app/models
+      - ./configs:/app/configs
+      - ./scripts:/app/scripts
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    # Uncomment if you want to run a specific command
+    # command: python main.py --script /app/scripts/sample_script.txt --output /app/outputs/final/video.mp4
+

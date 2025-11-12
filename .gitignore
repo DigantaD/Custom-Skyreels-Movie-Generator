@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Outputs
+outputs/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.png
+*.jpeg
+
+# Models (large files - use Git LFS or exclude)
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Hugging Face cache
+.cache/huggingface/
+
+# Docker
+.dockerignore
