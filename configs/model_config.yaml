@@ -1,0 +1,78 @@
+# SkyReels Model Configuration
+
+# Model Selection
+model:
+  # Options: "1.3b", "14b"
+  size: "1.3b"
+  
+  # Model paths (will auto-download from Hugging Face if not specified)
+  t2v_model_path: null  # Auto-download from Hugging Face
+  i2v_model_path: null  # Auto-download from Hugging Face
+  
+  # Hugging Face model IDs
+  t2v_hf_id: "Skywork/SkyReels-V2-DF-14B-720P-Diffusers"
+  i2v_hf_id: "Skywork/SkyReels-V2-I2V-14B-720P"
+
+# Generation Parameters
+generation:
+  # Resolution options: "360p", "480p", "540p", "720p"
+  resolution: "540p"
+  
+  # Video duration per segment (in seconds)
+  segment_duration: 3
+  
+  # Number of inference steps
+  num_inference_steps: 50
+  
+  # Guidance scale (higher = more adherence to prompt)
+  guidance_scale: 7.5
+  
+  # Number of frames per second
+  fps: 8
+  
+  # Seed for reproducibility (null for random)
+  seed: null
+
+# Performance Settings
+performance:
+  # Enable model offloading to CPU (saves VRAM)
+  enable_offload: true
+  
+  # Enable attention optimizations
+  enable_xformers: true
+  
+  # Batch size (for multiple segments)
+  batch_size: 1
+  
+  # Device: "cuda" or "cpu" (CPU not recommended)
+  device: "cuda"
+
+# Video Processing
+video:
+  # Output format
+  output_format: "mp4"
+  
+  # Video codec
+  codec: "libx264"
+  
+  # Quality (0-51, lower is better quality)
+  crf: 23
+  
+  # Enable transitions between segments
+  enable_transitions: true
+  
+  # Transition duration (in seconds)
+  transition_duration: 0.5
+
+# Prompt Engineering
+prompt:
+  # Add style modifiers to prompts
+  style_modifiers: "cinematic, high quality, professional, 4K"
+  
+  # Camera movement keywords
+  camera_keywords:
+    pan: "camera panning smoothly"
+    zoom: "camera zooming in"
+    wide: "wide angle shot"
+    close: "close-up shot"
+
